@@ -1,5 +1,7 @@
 import { MdLocalPizza as icon } from 'react-icons/md';
 
+import PriceInput from '../components/PriceInput';
+
 export default {
   name: 'pizza',
   title: 'Pizzas',
