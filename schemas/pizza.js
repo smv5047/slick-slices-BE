@@ -37,9 +37,11 @@ export default {
       name: 'price',
       title: 'Price',
       type: 'number',
+
       description: 'Price of a Pizza in cents',
       validation: (Rule) => Rule.min(1000),
-      // TODO: Add custom inpout component
+      // Overwrites default component from Sanity
+      inputComponent: PriceInput,
     },
     {
       name: 'toppings',
